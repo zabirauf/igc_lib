@@ -5,7 +5,7 @@ import os
 import sys
 
 import igc_lib
-import lib.dumpers as dumpers
+from .lib import dumpers
 
 
 def print_flight_details(flight):
